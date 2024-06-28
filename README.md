@@ -38,7 +38,10 @@ $ (cd main && terraform apply -auto-approve)
 
 ## Test
 ```bash
+# check if bucket was created
 $ aws s3 ls
+# check available website on
+$ https://website.s3-website.localhost.localstack.cloud:4566/ 
 ```
 
 ## Utils
@@ -94,11 +97,14 @@ provider "aws" {
 [![terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)](https://registry.terraform.io/)
 [![aws](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com/)
 
+
 ## Reference
 
 - https://docs.aws.amazon.com/cli/latest/reference/
 - https://registry.terraform.io/
 - https://www.localstack.cloud/
+- https://github.com/localstack-samples/localstack-terraform-samples/tree/master
+
 
 ## Feedback
 

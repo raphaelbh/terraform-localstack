@@ -19,5 +19,11 @@ variable "region" {
 variable "endpoints_url" {
   description = "URL for AWS endpoints"
   type = string
-  default = "http://localhost:4566" # For localstack
+  default = "http://localhost:4566"
+}
+
+variable "environment" {
+  description = "Environment"
+  type = string
+  default = "local"
 }

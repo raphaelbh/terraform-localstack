@@ -25,6 +25,7 @@ provider "aws" {
     redshift        = var.endpoints_url
     route53         = var.endpoints_url
     s3              = var.endpoints_url
+    #s3             = "http://s3.localhost.localstack.cloud:4566"
     secretsmanager  = var.endpoints_url
     ses             = var.endpoints_url
     sns             = var.endpoints_url
